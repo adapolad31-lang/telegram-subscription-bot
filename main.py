@@ -10,7 +10,7 @@ API_TOKEN = os.getenv("BOT_TOKEN")
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
-GROUP_ID = -1000000000000  
+GROUP_ID = int(os.getenv("GROUP_ID"))
 
 users = {}
 
